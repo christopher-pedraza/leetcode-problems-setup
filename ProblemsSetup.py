@@ -7,7 +7,7 @@ folders = os.listdir(PACKAGE_PATH)
 # Temp list to store only the folders and not files
 temp_folders = []
 # Folders/Files that won't be included
-BLACKLIST = [".git", "README.md", "99. Progress Tracker", "99. Problem Setup"]
+BLACKLIST = [".git", "README.md", "Review.md", "99. Progress Tracker", "99. Problem Setup"]
 
 # Print all folders in the path
 for folder in folders:
